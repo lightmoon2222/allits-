@@ -1,0 +1,560 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #F2F2F2;
+}
+
+
+
+.van-tabbar-item .van-tabbar-item__icon .van-info {
+	line-height: .43rem;
+	width: .44rem !important;
+	height: .44rem !important;
+	top: -10px;
+	left: -4px;
+	margin: 0 !important;
+	font-size: .25rem;
+}
+.van-stepper__minus::before, .van-stepper__plus::before{
+	width: .3rem !important;
+	height: 1px !important;
+}
+.device_infor .van-cell {
+	height: 1.1rem !important;
+	line-height: 1rem !important;
+	border-radius: 10px;
+	font-size: .36rem !important;
+	padding-left: 1.1rem !important;
+	box-shadow: 0 0 0.333333rem #D9D9D9;
+}
+ .case_progress .van-steps--vertical{
+	padding: 0 0 0 4.36667rem;
+}
+.case_progress .van-steps .van-steps__items .van-step{
+	font-size: .3rem;
+	height: .9rem !important;
+	border: 0 !important;
+}
+.case_progress .van-steps .van-steps__items .van-step .van-step__circle{
+	left: -0.126667rem;
+}
+.case_progress .van-steps .van-steps__items .van-step .van-step__title{
+	position: relative;
+	font-size: .34rem;
+	
+}
+.van-step--vertical.van-step--process .van-icon-checked{
+	font-size: .4rem !important;
+	color: #00a4f9 !important;
+}
+.case_progress .van-steps .van-steps__items .van-step .van-step__title h3{
+	padding-left: .3rem;
+}
+.case_progress .van-steps .van-steps__items .van-step .van-step__title .two_h3{
+	font-size: .31rem;
+	color: #666666;
+	padding-top: .2rem;
+}
+.case_progress .van-steps .van-steps__items .van-step .van-step__title p{
+		padding-top: .2rem;
+		position: absolute;
+		left: -2.35rem;
+		top:-.3rem;
+		font-size: .35rem !important;
+		line-height: .4rem;
+		text-align: right;
+}
+.van-cell__left-icon,
+.van-cell__right-icon {
+	font-size: .45rem !important;
+	margin-top: .32rem !important;
+}
+
+.van-collapse-item__content {
+	background-color: #f2f2f2 !important;
+}
+
+.repair_list .van-field .van-cell__title {
+	max-width: 2.2rem !important;
+	padding-left: .3rem;
+}
+
+.repair_sub_que .van-field .van-cell__title {
+	max-width: 2.3rem !important;
+}
+
+.details_textarea .van-field {
+	height: 4.2rem !important;
+	padding: .2rem .3rem .4rem 0;
+}
+
+.details_textarea .van-field .van-cell__value {
+	background-color: #f5f5f5;
+	padding: .1rem 0 0 .2rem;
+}
+
+.van-uploader .van-uploader__input {
+	left: 2.4rem;
+	top: 1rem;
+}
+
+.my_invoice .van-tabs--line .van-tabs__wrap {
+	height: 1.2rem;
+	font-size: 1rem;
+}
+
+.my_service .van-tabs--line .van-tabs__wrap {
+	height: 1.2rem;
+	font-size: 1rem;
+}
+
+.my_invoice .van-tabs--line .van-tabs__wrap .van-tab span {
+	font-size: .38rem;
+	padding-top: .3rem;
+	color: #333333;
+}
+
+.my_login .login_model .van-cell {
+	width: 95%;
+	margin: 0 auto;
+	height: 1.2rem;
+	font-size: .38rem !important;
+	border-bottom: 1px solid #c9c9c9;
+	margin-top: .1rem;
+	position: relative;
+}
+
+.my_login .pass_code .van-field__body input{
+	position: absolute;
+	top: .25rem;
+	height: .8rem;
+	line-height: .7rem;
+	font-size: .34rem !important;
+}
+.my_login .phone_code .van-field__body input{
+	position: absolute;
+	top: .25rem;
+	height: .8rem;
+	line-height:.7rem;
+	font-size: .34rem !important;
+}
+.van-field__control:disabled{
+	color: #333333 !important; 
+}
+.reset_pass .van-field__body input{
+	font-size: .34rem;
+}
+.register .van-field__body input{
+	font-size: .34rem;
+}
+.my_login .phone_code .van-field__body .van-field__button{
+	width: 2rem;
+	position: absolute;
+	right: .2rem;
+	top: .43rem;
+}
+.my_login .login_model .van-cell .van-cell__title {
+	max-width: 1.6rem;
+	line-height: 1.3rem;
+}
+
+.pass_code .van-hairline--top-bottom::after {
+	border-width: 0 !important;
+}
+.register .login_model .sms_code .van-field__button{
+	    position: absolute;
+    right: .2rem;
+    top: .01rem;
+}
+.register .login_model  .van-field__body input{
+    position: absolute;
+    top: .25rem;
+    height: .7rem;
+    line-height: .7rem;
+    font-size: .34rem !important;
+}
+.phone_code .van-hairline--top-bottom::after {
+	border-width: 0 !important;
+}
+.reset_pass .login_model .van-field__body input{
+    position: absolute;
+    top: .25rem;
+    height: .7rem;
+    line-height: .7rem;
+    font-size: .34rem !important;
+}
+.reset_pass .login_model .van-field__button{
+	    position: absolute;
+    right: .2rem;
+    top: .01rem;
+}
+.pass_code .van-cell:last-child .van-cell__title {
+	max-width: 1.2rem;
+}
+
+.my_login .phone_code .van-cell:last-child .van-cell__title {
+	max-width: 2.5rem;
+}
+
+.phone_code .van-cell:last-child .van-cell__value .van-field__button {
+	padding: 0 !important;
+	width: 2rem;
+}
+
+.register .phone_code .van-field .van-cell__title:nth-child(1) {
+	max-width: 2rem;
+}
+
+.register .van-cell-group .van-cell:first-child .van-cell__title {
+	max-width: 2rem;
+}
+
+.register .van-cell-group .van-cell:nth-child(2) .van-cell__title {
+	max-width: 1.6rem;
+}
+
+.register .van-cell-group .van-cell:nth-child(3) .van-cell__title {
+	max-width: 1.6rem;
+}
+
+.register .van-cell-group .van-cell:nth-child(4) .van-cell__title {
+	max-width: 2.4rem;
+}
+
+.register .van-cell-group .van-cell:nth-child(4) .van-cell__value button {
+	color: #00a4f9 !important;
+	background-color: #ffffff !important;
+	font-size: .4rem;
+	border: 0 !important;
+	padding: 0 !important;
+}
+
+.register .van-cell-group .van-cell:nth-child(5) .van-cell__title {
+	max-width: 1.2rem;
+}
+
+.phone_code .van-cell:last-child .van-cell__value .van-field__button button {
+	color: #00a4f9 !important;
+	background-color: #ffffff !important;
+	font-size: .36rem;
+	border: 0 !important;
+	padding: 0 !important;
+}
+
+
+.my_service .van-tabs--line .van-tabs__wrap .van-tab span {
+	font-size: .38rem;
+	padding-top: .3rem;
+	color: #333333;
+}
+
+.my_service .van-tabs--line .van-tabs__wrap .van-tab {
+	color: #333333;
+}
+
+.my_service .van-tabs--line .van-tabs__wrap .van-tab {
+	flex-basis: 20% !important;
+}
+
+.my_invoice .van-tabs--line {
+	padding-top: 1.4rem;
+}
+
+.my_service .van-tabs--line {
+	padding-top: 1.4rem;
+}
+
+.my_invoice .van-tabs--line .van-tabs__content .van-tab__pane:last-child {
+	background-color: #F2F2F2;
+}
+
+.my_invoice .van-tabs .van-tab__pane {
+	background-color: #FFFFFF;
+}
+
+.my_invoice .van-tabs .van-tab__pane .van-checkbox {
+	height: 1.5rem;
+	border-bottom: 1px solid #c9c9c9;
+	position: relative;
+}
+
+.my_invoice .van-tabs .van-tab__pane .van-checkbox .van-checkbox__icon .van-icon {
+	width: .4rem;
+	height: .4rem;
+	border-radius: 0;
+	margin-left: .4rem;
+	line-height: .4rem;
+	margin-top: .1rem;
+}
+
+.all_check .van-checkbox__label {
+	padding-top: .3rem;
+}
+
+.all_check .van-checkbox__label .van-icon {
+	margin-top: 1rem;
+}
+
+.van-dialog .van-dialog__content {
+	height: 3rem;
+}
+
+.van-dialog .van-dialog__content .van-dialog__message {
+	font-size: .4rem;
+	line-height: 3rem;
+}
+
+.van-dialog .van-dialog__footer {
+	height: 1rem;
+	line-height: 1rem;
+}
+
+.van-dialog .van-dialog__footer span {
+	font-size: .43rem;
+}
+
+.van-dialog .van-dialog__footer .van-button {
+	padding-top: .24rem;
+	height: 100%;
+}
+
+.van-dialog .van-dialog__header {
+	font-size: .45rem;
+	padding-top: .1rem;
+	padding-top: .2rem;
+	letter-spacing: 1px;
+}
+
+.van-dialog .van-dialog__content #sms_code {
+	width: 3rem;
+	height: .8rem;
+	outline: none;
+	-webkit-appearance: none;
+	border-radius: 5px;
+	position: relative;
+	top: -.3rem;
+	border: 1px solid #c9c9c9;
+	font-size: .4rem;
+}
+.van-dialog .van-dialog__content #sms_code2 {
+	width: 3rem;
+	height: .8rem;
+	outline: none;
+	-webkit-appearance: none;
+	border-radius: 5px;
+	position: relative;
+	top: -.3rem;
+	border: 1px solid #c9c9c9;
+	font-size: .4rem;
+}
+.van-dialog .van-dialog__content #push_code {
+	display: inline-block;
+	position: relative;
+	top: -2.3rem;
+	left: 1.7rem;
+}
+
+.reset_pass .login_model .phone_code .van-cell-group .van-cell:nth-child(1) .van-cell__title {
+	max-width: 1.7rem;
+}
+
+.reset_pass .login_model .phone_code .van-cell-group .van-cell:nth-child(2) .van-cell__title {
+	max-width: 2.3rem;
+}
+
+.invoice_one .van-radio-group .van-radio__input {
+	font-size: .5rem;
+	position: relative;
+	top: -.05rem;
+}
+
+.address_list .van-radio__input {
+	font-size: .45rem;
+}
+
+.invoice_two .van-radio-group .van-radio__input {
+	font-size: .5rem;
+	position: relative;
+	top: -.05rem;
+}
+
+.invoice_infor .invoice_details .van-cell .van-cell__title {
+	max-width: 2rem;
+	padding-left: .06rem;
+}
+
+.invoice_infor .invoice_details .invoice_num .van-cell__title {
+	max-width: 1.3rem !important;
+	padding-left: .06rem;
+}
+
+.invoice_infor .invoice_details .openone .van-cell__title {
+	max-width: 1.6rem;
+}
+
+.invoice_infor .invoice_details .opentwo .van-cell__title {
+	max-width: 2.3rem;
+}
+
+.invoice_four .van-cell .van-cell__title {
+	max-width: 2rem;
+}
+
+.invoice_method .van-cell .van-cell__title {
+	max-width: 1.4rem;
+}
+
+.invoice_method .van-cell {
+	height: 1rem;
+	font-size: .37rem;
+	color: #666666;
+	border-bottom: 1px solid #c9c9c9;
+	line-height: .7rem;
+}
+.address_list .invoice_method .van-cell{
+	padding-left: .3rem;
+}
+
+.invoice_method .van-address-edit .van-address-edit__buttons {
+	display: none;
+}
+
+.invoice_method .address_detail .van-cell__title {
+	max-width: 2rem;
+}
+
+.invoice_method .addresser .van-cell__title {
+	max-width: 1.6rem;
+}
+
+.invoice_method .addresser_phone .van-cell__title {
+	max-width: 2rem;
+}
+
+.invoice_method .van-popup--bottom .van-picker__toolbar {
+	height: 1rem;
+}
+
+.invoice_method .van-popup--bottom .van-picker__toolbar div {
+	font-size: .42rem;
+	line-height: 1rem;
+}
+
+.invoice_method .van-picker__columns .van-picker-column {
+	font-size: .4rem;
+}
+
+.van-tabs--line .van-tabs__wrap .van-tab--active span {
+	color: #00a4f9 !important;
+}
+
+.model_two .van-dialog__content {
+	height: 2.4rem;
+	position: relative;
+}
+
+.model_two .van-dialog__content>div {
+	width: 7rem;
+	margin: 0 auto;
+	padding-top: .4rem;
+}
+
+.model_two .van-dialog__content>div a {
+	position: absolute;
+	top: 1.5rem;
+	width: 2.7rem;
+	right: 1.6rem;
+	color: #999999;
+	font-size: .36rem;
+}
+.month_service .van-stepper .van-stepper__minus{
+	width: .61rem;
+	height: .61rem;
+	font-size: 1rem;
+}
+.month_service .van-stepper .van-stepper__plus{
+	width: .61rem;
+	height: .61rem;
+}
+.van-notify{
+	height: 30px;
+	font-size: .37rem !important;
+	line-height: 28px !important;
+	
+}
+
+.month_service .van-stepper .van-stepper__input{
+	width: .55rem;
+	height: .56rem;
+	line-height: .4rem;
+	font-size: .3rem;
+	border: none;
+}
+
+.month_service  .service_list .stepper button:before {
+ height: .0223333rem !important;
+}
+.month_service .van-stepper__minus::after, .van-stepper__plus::after{
+	height: .3rem !important;
+}
+.month_service .van-stepper__plus::before{
+	height:1px !important;
+}
+.month_service .van-stepper__plus::after{
+
+	width: 1px !important;
+}
+.month_service .van-stepper__minus{
+	border: 0.023333rem solid #ebedf0;
+	box-sizing: border-box;
+}
+.month_service .van-stepper__plus{
+	border: 0.023333rem solid #ebedf0;
+}
+.service_demand .van-field .van-field__body textarea{
+	width: 100%;
+	height: 2.4rem !important;
+	background-color: #F9F9F9;
+	display: block;
+	padding: .3rem 0 0 .3rem;
+	font-size: .37rem;
+}
+.service .contant_swiper .van-swipe__indicators .van-swipe__indicator{
+	width: .18rem;
+	height: .18rem;
+	background-color: #bbbbbb;
+	opacity: 1;
+}
+.service .contant_swiper .van-swipe__indicators{
+ bottom: .01rem;
+}
+.repair_sub_que .adders .van-cell__title span{
+	float: left;
+
+}
+.repair_sub_que .user_id .van-cell__title span{
+	float: left;
+
+}
+.repair_sub_que .phones .van-cell__title span{
+	float: left;
+
+}
+.repair_sub_que .adders  .van-cell__title{
+	max-width: 1.6rem !important;
+}
+.repair_sub_que .phones  .van-cell__title{
+	max-width: 2rem !important;
+}
+.repair_sub_que .user_id  .van-cell__title{
+	max-width: 2.4rem !important;
+}
+.repair_sub_que .details_textarea .van-cell__title span{
+	margin-right: 3px;
+}
+.repair_sub_que .uoload_image  span{
+	margin-right: 3px;
+}

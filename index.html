@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+		<title>全倾服务</title>
+		<link rel="stylesheet" type="text/css" href="static/public_css/public_css.css" />
+		<style>
+			.van-stepper__minus::before,
+			.van-stepper__plus::before {
+				width: .3rem !important;
+				height: 1px !important;
+			}
+		</style>
+		<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+		<script type="text/javascript">
+			var Ip = returnCitySN['cip']
+			var cityname = returnCitySN['cname']
+			localStorage.setItem('Ip', Ip)
+			localStorage.setItem('cityname', cityname)
+		</script>
+
+	</head>
+
+	<body>
+		<div id="app"></div>
+		<!-- built files will be auto injected -->
+	</body>
+
+</html>
